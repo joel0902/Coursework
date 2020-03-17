@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <title>Contact me</title>
+</head>
+<body>
+    
+    
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="unit1.html">Unit 1</a>
+              <a href="unit1.2.html">Unit 1.2</a>
+              <a href="unit2.html">Unit 2</a>
+              <a href="contactme.html">Contact me</a>
+            </div>
+          </div>
+          
+     
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+        <u><center><h1 style="color:white;"<u> <b>Contact me:</u></h1> </b></center></u>
+       
+
+
+<h1><center><a href="mailto:joelhere52@yahoo.co.uk" target="_top">Send me a message</a> </center></h1>
+
+
+<br>
+
+
+
+
+
+<script>
+          
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+</body>
+</html>

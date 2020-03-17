@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <title>Unit 1 Outcome 3</title>
+</head>
+<body>
+    
+
+    
+        
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="unit1.html">Unit 1 Outcome 1</a>
+      <a href="unit1.2.html">Unit 1 Outcome 2</a>
+      <a href="unit1.3.html">Unit 1 Outcome 3</a>
+      <a href="unit2.html">Unit 2</a>
+      <a href="contactme.html">Contact me</a>
+    </div>
+          
+          
+        
+
+    <u><h1><u> <b>UNIT 1 Outcome 3</u></h1> </b></u></h1>
+
+    <div class="boxed"><b>3.1 Review the benefits and drawbacks of IT tools and systems used in terms of productivity and efficiency – could you have been more efficient when making your website? How? Could you have done it in teams? </b></div>
+
+<p>The benefits of the IT tools I were that in Trello I could quickly see which tasks needed to be done and this 
+  was kept very organised. A drawback was that I had to stop productivity to update the Trello board. Visual Studio
+   Code was very benificial to use as the code is easier to read with the different colours the program uses for 
+   key areas of code, the main drawback was that every time something was done in CSS and HTML it had to be done 
+   splitscreen which meant saving files individually and then refreshing the webpage manually to check everything 
+   was working correctly. Working in a team would have made the process easier as people think very differently
+    which brings ideas that an individual developer may not have realised could make a project better, more over
+     other benefits of teamwork are i.e discussing layout ideas, theme, researching knowledge to implement on the
+      page, also updating Trello would have been more efficient with tasks delegated.
+
+</p>
+
+<div class="boxed"><b>3.2 Describe ways to improve productivity and efficiency</h3> </div>
+
+<p> Efficiency would've been a lot higher if from the start I planned out the exact way I wanted my website to look. 
+    This would have given me a design to base my website off and eventually link them together. 
+    I spent alot of time thinking about design rather than developing, because I had no clear plan of what 
+    the layout for the page would be. The project would have been completed more efficiently if 
+    I designed some layout ideas first. I spent a bit of time looking at how other websites are layed 
+    out to give me an idea of how I would like mine to be positioned. Tracking a time limit and not spending too little or 
+    too much on one particular part also improves efficiency. Taking regular breaks can help improve concentration, 
+    while working for a long time without breaks can lead to a steady decline in performance. Committing to a 
+    single task before moving onto a next one will increase productivity because attempting to do several tasks 
+    at once can result in lost time and productivity.
+</p></b>
+
+<div class="boxed"><b>3.3 Develop solutions to improve own productivity using IT in digital projects – what would you do differently next time? Team work? Use of Slack? </h3> </div>
+
+
+<p>In the interest of improving my own productivity next time I would create a drawing of my page layout to make 
+    the design process much smoother and clear. Researching by looking at other websites would have been more 
+    beneficial to get a good idea of the types of layouts used in successful published websites, or even working 
+    as a team to discuss ideas because everyone approaches projects with a different thought process. Slack could
+     have been used to discuss ideas whilst working on the projects and to get assistance with the code needed for
+      particular features like for example: drop downs, navigation bars as they may already have the knowledge from
+       previous projects experience.
+ </p>
+
+<br>
+
+<div class="boxed"><b>3.4 Describe how you would go about testing digital solutions </h3> </div>
+
+  <p> I would check the functionality of each 
+      feature to make sure it is fit for purpose, has maximum compatibility by testing on different devices and
+       browsers. Features that work on Chrome or Firefox may not work on Internet Explorer or Opera so to reach the
+        maximum amount of users this has to be checked to see if users of different devices or browsers can view 
+        the web page correctly without errors, making sure that it is a comfortable viewing experience.
+        Usability testing tests the functionality of a website, app or other digital products by observing real users 
+        as they attempt to complete tasks on it. This is to reveal areas of confusion and improve overall performance
+   
+      </p>
+
+<br>
+<br>
+    <button id="myBtn"><a href="#top" style="color: black">Top</a></button>
+    <script>
+          
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+</body>
+</html>

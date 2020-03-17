@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <title>Unit 2</title>
+</head>
+<body>
+    
+
+    
+        
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="unit1.html">Unit 1 Outcome 1</a>
+    <a href="unit1.2.html">Unit 1 Outcome 2</a>
+    <a href="unit1.3.html">Unit 1 Outcome 3</a>
+    <a href="unit2.html">Unit 2</a>
+    <a href="contactme.html">Contact me</a>
+  </div>
+          
+       
+        
+
+    <u><h1><u> <b>UNIT 2</u></h1> </b></u></h1>
+
+    <div class="boxed"><b>1.1 Describing the content and layout for each page </b></div>
+
+<p>The layout I chose was a basic header, navigation bar, content and a footer, a simplistic design with a 
+  background gradient so it wasn't plain. I avoided using images from the internet as images are protected by 
+  copyright law, also the design I created was fit for purpose and didn't require any advanced features or layout.
+   I would create my own images in future designs depending on time constraints to further enhance the users viewing 
+   experience. My website layout contained four seperate units which involved the coursework units, a contact me page 
+   where users can contact me if they wish and a home page where it has a brief overview of me.
+
+</p>
+
+<div class="boxed"><b>1.5 Describing copyright and other constraints affecting websites</h3> </div>
+
+<p> The main problem with copyrights affecting websites is that the website creator could be liable for the copyright infringement. If they were to use an image that is not original or created by themselves it could be flagged as a copyrighted image. The content owner should allow the creator to use the image before using any copyright protected property or check that they allow use from that source or the owner can request that the content is removed if permission is not granted.
+<br>
+(i.e images, videos or even written work from other webpages is somebody elses intellectual property under the Copyright laws (UK) this can differ depending on where the website originates, under US law or any other country they may handle breaches differently according to their laws.)
+</p></b>
+
+<div class="boxed"><b>1.6 Describing access issues that need taking into account - describe issues that people with disabilities may face when using webpages and how we can overcome them</h3> </div>
+
+
+<p>Disabilties that can impact the ability to use websites can include hard of hearing, being unable to move, blindness and persons with a lower cognitive ability, These disabilties could be caused by genetics or an unfortunate accident i.e a broken arm or even old age. Some of the ways we can over come these issues is by using text alternatives rather than images, speech recognition for voice input, larger text or functionality for text to be sent to a braille device.
+ <br>
+ <br>
+  <a href> https://www.w3.org/WAI/fundamentals/accessibility-principles/</p></a>
+
+<br>
+
+<div class="boxed"><b>1.7 Describe which are the appropriate filetypes for websites</h3> </div>
+
+  <p>The best file types are files that use a lossless format compression to avoid or minimize any loss of details, for example images that are size limited. SVG, lossless WebP or PNG are best for icons, for photographs the best choices are WebP or Jpeg. Jpeg images are more compatible with older browsers but WebP can offer better compression which allows for faster loading times depending on internet connection speed.</p>
+
+<br>
+<br>
+    <button id="myBtn"><a href="#top" style="color: black">Top</a></button>
+
+    <script>
+          
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+</body>
+</html>

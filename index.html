@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <link rel="stylesheet" type = "text/css" href = "style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joel's page</title>
+  
+</head>
+
+<body>
+
+   
+
+
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Menu</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="unit1.html">Unit 1 Outcome 1</a>
+      <a href="unit1.2.html">Unit 1 Outcome 2</a>
+      <a href="unit1.3.html">Unit 1 Outcome 3</a>
+      <a href="unit2.html">Unit 2</a>
+      <a href="contactme.html">Contact me</a>
+    </div>
+  
+  
+
+
+
+<div class="boxed"><u><h1 style="color:white;"><u> <b>About me</u></h1> </b></u></div>
+
+<p style ="color:white;">Hello welcome to my page, my name is Joel and I am from Manchester. I have a keen passion for technology and hoping to advance my knowledge on this course.
+</div></p>
+<br>
+<img src="images/start1.jpg" height="200" width="500"> </a>
+
+
+<br>
+
+<div class="boxed"><b><h1 style="color:white;"><u>Background</u></h1></b></div>
+
+<p style ="color:white;">I am from Manchester I originally studied IT in college and then moved onto a lot of different types of jobs including sales, account management and Financial advising.
+
+<br>
+<br>
+<br>
+<div class="boxed"><h1 style="color:white;"> <b><u>Interests in Coding</u></h1> </b></div>
+
+<p style ="color:white;"> My interest in coding came from growing up wondering how some of my favourite games were made from scratch, I'm hoping with this course I will get a good understanding on how this is done.
+
+
+
+
+
+
+
+<br>
+<br>
+<button id="myBtn"><a href="#top" style="color: black">Top</a></button>
+<script>
+  
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+
+</body>
